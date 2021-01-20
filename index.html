@@ -19,12 +19,12 @@
                 <a class="logo-link" href="#"><img src="./images/Logo.png" alt="logo"></a>
             </div>
             <nav class="nav__inner flex_between">
-                <a class="nav__link" href="#page-one"><p class="p_20">Home</p></a>
-                <a class="nav__link" href="#page-two"><p class="p_20">Pages</p></a>
-                <a class="nav__link" href="#page-three"><p class="p_20">Features</p></a>
-                <a class="nav__link" href="#page-four"><p class="p_20">Extensions</p></a>
-                <a class="nav__link" href="#page-five"><p class="p_20">Tutorials</p></a>
-                <a class="nav__link" href="#page-five"><p class="p_20">Contact us</p></a>
+                <a class="nav__link" href="#home"><p class="p_20">Home</p></a>
+                <a class="nav__link" href="#pages"><p class="p_20">Pages</p></a>
+                <a class="nav__link" href="#features"><p class="p_20">Features</p></a>
+                <a class="nav__link" href="#extensions"><p class="p_20">Extensions</p></a>
+                <a class="nav__link" href="#tutorials"><p class="p_20">Tutorials</p></a>
+                <a class="nav__link" href="#contact"><p class="p_20">Contact us</p></a>
             </nav>
             <div class="header__social flex_around">
                 <a class="social-link" href="#" target="_parent">
@@ -50,16 +50,16 @@
                         <a href="#home" class="burger__link">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="burger__link">Pages</a>
+                        <a href="#pages" class="burger__link">Pages</a>
                     </li>
                     <li>
-                        <a href="#skills" class="burger__link">Features</a>
+                        <a href="#features" class="burger__link">Features</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="burger__link">Extensions</a>
+                        <a href="#extensions" class="burger__link">Extensions</a>
                     </li>
                     <li>
-                        <a href="#contact" class="burger__link">Tutorials</a>
+                        <a href="#tutorials" class="burger__link">Tutorials</a>
                     </li>
                     <li>
                         <a href="#contact" class="burger__link">Contact us</a>
@@ -75,14 +75,14 @@
 <main>
 
     <section class="banner">
-        <div class="content content__banner wrapper">
+        <div class="content content__banner flex_column_center wrapper">
             <div class="banner__inner flex_column_between">
                 <div class="banner__title text_center">
                     <h1>Creatives</h1>
                     <p class="p-25 text_center">Power by PSDfreebies.com</p>
                 </div>
                 <div class="scroll">
-                    <p class="p-13_openSans" id="p1">Scroll Down</p>
+                    <p class="p-13_openSans text_center" id="p1">Scroll Down</p>
                     <a class="scroll__link flex_center" href="#project">
                         <img class="link__img" src="./images/icon-down.png" alt="/icon-down">
                     </a>
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section class="info" id="page-one">
+    <section class="info" id="pages">
         <div  class="content content__info wrapper">
             <div class="subtitle subtitle_info flex_center">
                 <h3 class="h3_w text_center color_rgba">W</h3>
@@ -146,7 +146,7 @@
         </div>
     </section>
 
-    <section class="about-1">
+    <section class="about-1" id="features">
         <div class="row flex_center">
             <div class="column__left column__left__about-1">
                 <div class="column__text column__text_left col_w">
@@ -252,12 +252,12 @@
         </div>
     </section>
 
-    <div class="description">
+    <div class="description" id="tutorials">
         <div class="content wrapper">
             <div class="description__inner flex_between">
                 <div class="description__item flex_around">
                     <div class="description__img">
-                        <img src="./images/Write-icon.png" alt="icon">
+                        <img src="./images/write-icon.png" alt="icon">
                     </div>
                     <div class="description__text">
                         <div class="text_left">
@@ -270,7 +270,7 @@
                 </div>
                 <div class="description__item flex_around">
                     <div class="description__img">
-                        <img src="./images/Write-icon.png" alt="icon">
+                        <img src="./images/write-icon.png" alt="icon">
                     </div>
                     <div class="description__text">
                         <div class="text_left">
@@ -285,7 +285,7 @@
         </div>
     </div>
 
-    <section class="extensions">
+    <section class="extensions" id="extensions">
         <div class="content content_extensions wrapper flex_between">
             <div class="column-left-extensions">
                 <p class="p-25-g col_w">Akita Inu Dog</p>
@@ -304,7 +304,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section class="team" id="contact">
         <div class="content wrapper">
             <div class="subtitle subtitle_team flex_center">
                 <h3 class="h3_w text_center col_light">T</h3>
@@ -365,7 +365,7 @@
                 <div class="input__inner flex_between">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
-                    <input type="text" placeholder="phone">
+                    <input type="text" placeholder="Phone">
                 </div>
                 <textarea name="text" placeholder="Message" id="" cols="30" rows="8"></textarea>
                 <button class="btn" type="button">Submit</button>
